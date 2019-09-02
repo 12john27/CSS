@@ -3,23 +3,55 @@
   <head>
     <meta charset="utf-8">
     <title>Test Page: Dont Panic </title>
+    <style>
+      a {
+        color: blue;
+      }
+      div {
+        border: 1px solid black;
+      }
+      li {
+        border: 1px solid black;
+      }
+      div a {
+        color: green;
+      }
+      li a {
+        color: red;
+      }
+      #exec-bio {
+        background-color: lightgray;
+      }
+      .biobox{
+        border: 1px solid black;
+      }
+      .biobox a {
+        color: green;
+      }
+      #example {
+        color: orange;
+      }
+      .newclass a {
+        color: azure;
+      }
+    </style>
   </head>
   <body>
     <h1> I'm Heading 1 </h1>
     <ul>
-      <li> <a href = "https://example.com/" style = "color: red;"> link </a> </li>
-      <li> <a href = "https://example.com/" style = "color: green;"> link </a> </li>
-      <li> <a href = "https://example.com/" style = "color: blue;"> link </a> </li>
+      <li> <a href = "https://example.com/" id="example"> link </a> </li>
+      <li> <a href = "https://example.com/"> link </a> </li>
+      <li> <a href = "https://example.com/"> link </a> </li>
     </ul>
     <h2> I'm Heading 2 </h2>
-    <div style = "border: 1px solid black;">
-      <a href = "https://example.com/" style = "color: red;"> I'm a link </a>
+    <div id="exec-bio" class="biobox">
+      <a href = "https://example.com/"> I'm a link </a>
     </div>
-    <div style = "border: 1px solid black;">
-      <a href = "https://example.com/" style = "color: green;"> I'm a link </a>
+    <div class="biobox" class="newclass">
+      <a href = "https://example.com/"> I'm a link </a>
     </div>
-    <div style = "border: 1px solid black;">
-      <a href = "https://example.com/" style = "color: blue;"> I'm a link </a>
+    <div class="biobox">
+      <a href = "https://example.com/"> I'm a link </a>
     </div>
   </body>
 </html>
